@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Laravel/Composer (if using PHP frameworks)
+vendor/
+.env
+
+# Node-related (if you ever add Node later)
+node_modules/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Database dumps
+*.sql
+
+# Compiled files
+*.class
+*.pyc
+
+# Other
+*.bak

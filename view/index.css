@@ -1,0 +1,183 @@
+section {
+  margin: 0 2em;
+}
+
+/* input[type="submit"],
+a.button,
+section span {
+  font-weight: 600;
+} */
+
+/* Top */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.filter {
+  display: flex;
+}
+
+.filter label {
+  padding: 6px;
+  margin-right: -4.5px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  white-space: nowrap;
+}
+.filter label {
+  padding: 6px;
+  margin-right: -4.5px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  white-space: nowrap;
+}
+.filter .input-ser,
+.filter select {
+  padding: 6px;
+  margin-right: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.label-cat {
+  color: black;
+  background-color: white;
+}
+.select-cat {
+  border: 2px solid white;
+}
+.label-stats {
+  color: white;
+  background-color: rgb(255, 128, 0);
+}
+.select-stats {
+  border: 2px solid rgb(255, 128, 0);
+}
+.label-fav {
+  color: white;
+  background-color: violet;
+}
+.select-fav {
+  border: 2px solid violet;
+}
+.label-ser {
+  color: white;
+  background-color: rgb(0, 110, 255);
+}
+.input-ser {
+  border: 2px solid rgb(0, 110, 255);
+}
+
+#btn-filter,
+#btn-tambah {
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: white;
+}
+
+#btn-tambah {
+  transition: all 0.15s ease;
+}
+#btn-filter:hover,
+#btn-tambah:hover {
+  background-color: #ccc;
+}
+
+/* Todo */
+
+.cards {
+  column-count: 3;
+  gap: 16px;
+  margin-top: 2em;
+}
+
+.todo {
+  display: inline-block;
+  width: 100%;
+  min-height: 130px;
+  padding: 12px;
+  margin-bottom: 16px;
+  color: #ccc;
+  background-color: #161616;
+  border-radius: 12px;
+  border: 1px solid rgb(0, 110, 255);
+}
+.todo h3 {
+  margin: 0 0 1em 0;
+  text-align: center;
+}
+
+.judul,
+.deskripsi {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}
+.deskripsi {
+  cursor: pointer;
+  margin-bottom: 1em;
+  transition: all 0.15s ease;
+}
+.deskripsi:hover {
+  color: white;
+}
+.toggdes:checked + .deskripsi {
+  white-space: initial;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+.kategori {
+  color: black;
+  background-color: white;
+}
+.status.pending {
+  background-color: rgb(255, 174, 0);
+}
+.status.done {
+  background-color: rgb(0, 200, 0);
+}
+
+.favorit {
+  color: red;
+  background-color: white;
+}
+.favorit.y {
+  box-shadow: inset 0 0 10px 3px red;
+}
+
+.status {
+  color: white;
+}
+.status.pending {
+  background-color: rgb(255, 174, 0);
+}
+.status.done {
+  background-color: rgb(0, 200, 0);
+}
+
+.edit {
+  color: black;
+  background-color: white;
+}
+.edit:hover {
+  background-color: #ccc;
+}
+.hapus {
+  color: white;
+  background-color: rgb(216, 0, 0);
+}
+.hapus:hover {
+  background-color: rgb(181, 0, 0);
+}
