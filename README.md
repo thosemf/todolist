@@ -13,5 +13,6 @@ This app is the improved version of a project originally developed for the USK (
 5. Search for notes by title.
 
 ### Snapshots
-![Index page](https://github.com/thosemf/app_todolist/.)
+Index page:
+![Index page](https://github.com/thosemf/todolist/blob/docs/docs/snapshots/Todo%20List%20-%20Brave%2003_05_2025%2020_57_01.png)
 
