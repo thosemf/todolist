@@ -19,11 +19,13 @@ section span {
 }
 
 .filter label {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
   padding: 6px;
   margin-right: -4.5px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
-  white-space: nowrap;
 }
 .filter label {
   padding: 6px;
