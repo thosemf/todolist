@@ -14,5 +14,5 @@ This app is the improved version of a project originally developed for the USK (
 
 ### Snapshots
 Index page:
-![Index page](https://github.com/thosemf/todolist/blob/docs/docs/snapshots/Todo%20List%20-%20Brave%03_05_2025%2022_50_27.png?raw=true)
+![Index page](https://github.com/thosemf/todolist/blob/docs/docs/snapshots/Todo%20List%20-%20Brave%2003_05_2025%2022_50_27.png?raw=true)
 
