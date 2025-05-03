@@ -6,11 +6,11 @@ Thumbs.db
 *.log
 *.tmp
 
-# Laravel/Composer (if using PHP frameworks)
+# Laravel/Composer
 vendor/
 .env
 
-# Node-related (if you ever add Node later)
+# Node-related
 node_modules/
 
 # IDEs and editors
